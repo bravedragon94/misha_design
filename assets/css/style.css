@@ -1,0 +1,19 @@
+section{
+    width: 100%;
+}
+.banner{
+    background-color: #fff;
+    background-image: url("../img/girl.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 600px;
+}
+select.dropdown{
+    border: none;
+}
+.page-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
