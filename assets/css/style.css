@@ -17,3 +17,7 @@ select.dropdown{
     font-size: 28px;
     font-weight: 400;
 }
+.banner-box{
+    box-shadow: #2067dd1a 0 2px 10px ;
+    height: 100px;
+}
