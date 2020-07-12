@@ -252,3 +252,8 @@ div.table-content-center>div.center-content {
     width: 100%;
     position: relative;
 }
+
+div.center-content{
+    margin: 0 auto;
+    display: block;
+}

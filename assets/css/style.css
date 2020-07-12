@@ -19,7 +19,8 @@ select.dropdown{
 }
 .banner-box{
     box-shadow: #2067dd1a 0 2px 10px ;
-    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 .banner-box img{
     margin: 0 auto;
