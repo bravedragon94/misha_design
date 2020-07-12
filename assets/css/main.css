@@ -239,3 +239,16 @@
 .fr{
     float: right;
 }
+div.table-content-center {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+div.table-content-center>div.center-content {
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    float: none;
+    width: 100%;
+    position: relative;
+}
