@@ -26,3 +26,11 @@ select.dropdown{
     margin: 0 auto;
     display: block;
 }
+.banner-box h2{
+    font-size: 33px;
+}
+.banner-box span{
+    margin: 0 auto;
+    display: block;
+    font-size: 17px;
+}
