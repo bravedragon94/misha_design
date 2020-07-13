@@ -352,3 +352,36 @@ select:focus{
     color: #ABABAB;
     text-align: center;
 }
+.blog-banner{
+    background: url(../img/Group11516.png);
+    background-size: 100% 100%;
+    height: 700px;
+    box-shadow: 0 0 15px 0px #5a5a5ab5;
+    border-radius: 60px;
+    border: solid 1px #e7e7e7;
+}
+.blog-banner>*{
+    float: left;
+}
+#phone1{
+    padding: 130px 25px 70px;
+}
+#phone2{
+    padding: 30px 25px 70px;
+}
+.grey-text{
+   color: #c4c4c4;
+}
+.blog-banner a{
+    background: linear-gradient(45deg, #D7A584, #E0557F);
+    width: 205px;
+    text-align: center;
+    margin: 50px auto 0;
+    display: block;
+    float: none;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    line-height: 50px;
+}
