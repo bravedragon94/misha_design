@@ -117,6 +117,7 @@ a.logo-main{
     background: url(../img/NS.png) no-repeat;
     background-size: contain;
     float: left;
+    margin-right: 15em;
 }
 a.logo-main:after{
     content: '';
