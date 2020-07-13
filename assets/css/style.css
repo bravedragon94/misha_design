@@ -108,7 +108,7 @@ a.logo:after{
 /*------------------Product Page----------------------*/
 header{
     width: 100%;
-
+    border-bottom: solid 1px #EBEBEB;
 }
 a.logo-main{
     position: relative;
@@ -126,4 +126,97 @@ a.logo-main:after{
     background: url(../img/NisheSkin..png) no-repeat;
     top: 25px;
     right: -90px;
+}
+section.main-content{
+    position: relative;
+    display: block;
+    float: left;
+}
+aside .breadcrumb{
+    background: #fff;
+}
+aside .breadcrumb-item, aside .breadcrumb-item a, aside .breadcrumb-item.active, aside .breadcrumb-item+.breadcrumb-item::before{
+    color: #B2B2B2;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.side-box{
+    border: solid 1px #EBEBEB;
+    padding: 20px 30px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.side-box .box-title{
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #4a4a4ac9;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #000;
+}
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #000;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkbox-container .checkmark:after {
+    left: 8px;
+    top: 2px;
+    width: 8px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.checkbox-container p.check-title{
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+}
+.checkbox-container p.check-title span{
+    color: #c4c4c4;
+    text-transform: lowercase;
+}
+.side-category .category-title{
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+
+}
+.side-category{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
