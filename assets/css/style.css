@@ -373,8 +373,11 @@ select:focus{
     padding: 140px 25px 70px;
 }
 
-.grey-text{
+.light-text{
    color: #c4c4c4;
+}
+.grey-text{
+    color: #5d5d5d;
 }
 .blog-banner a{
     background: linear-gradient(45deg, #D7A584, #E0557F);
