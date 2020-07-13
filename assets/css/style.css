@@ -62,17 +62,44 @@ select.dropdown{
     right: -25px;
 }
 .bottom-box{
-
+    padding-top: 40px;
 }
 .bottom-box>span{
-
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #E1ECFF;
+    float: left;
+    padding: 7px 10px;
+    margin-right: 25px;
 }
 .bottom-box>div{
-
+    float: left;
+    width: calc(100% - 65px);
 }
 .bottom-box>div>h3{
-
+    font-size: 14px;
+    font-weight: bold;
 }
 .bottom-box>div>p{
-
+    font-size: 12px;
+    font-weight: 300;
+    color: #A8A8A8;
+}
+a.logo{
+    position: relative;
+    width: 159px;
+    height: 112px;
+    background: url(../img/NS.png) no-repeat;
+    background-size: contain;
+    float: left;
+}
+a.logo:after{
+    content: '';
+    position: absolute;
+    width: 98px;
+    height: 32px;
+    background: url(../img/NisheSkin..png);
+    top: 68px;
+    right: -80px;
 }
