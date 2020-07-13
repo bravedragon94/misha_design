@@ -103,3 +103,27 @@ a.logo:after{
     top: 68px;
     right: -80px;
 }
+
+
+/*------------------Product Page----------------------*/
+header{
+    width: 100%;
+
+}
+a.logo-main{
+    position: relative;
+    width: 80px;
+    height: 55px;
+    background: url(../img/NS.png) no-repeat;
+    background-size: contain;
+    float: left;
+}
+a.logo-main:after{
+    content: '';
+    position: absolute;
+    width: 98px;
+    height: 32px;
+    background: url(../img/NisheSkin..png) no-repeat;
+    top: 25px;
+    right: -90px;
+}
