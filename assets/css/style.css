@@ -369,6 +369,10 @@ select:focus{
 #phone2{
     padding: 30px 25px 70px;
 }
+#phone3{
+    padding: 140px 25px 70px;
+}
+
 .grey-text{
    color: #c4c4c4;
 }
