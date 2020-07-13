@@ -34,3 +34,45 @@ select.dropdown{
     display: block;
     font-size: 17px;
 }
+.shop-now{
+    width: 125px;
+    height: 125px;
+    background: linear-gradient(#d3d3d3, #6a6a6a);
+    text-transform: uppercase;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px;
+}
+.shop-now span{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.shop-now:after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background: url(../img/Group12.png) no-repeat;
+    position: absolute;
+    top: 100px;
+    right: -25px;
+}
+.bottom-box{
+
+}
+.bottom-box>span{
+
+}
+.bottom-box>div{
+
+}
+.bottom-box>div>h3{
+
+}
+.bottom-box>div>p{
+
+}
