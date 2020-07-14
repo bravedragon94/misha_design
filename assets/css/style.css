@@ -392,3 +392,15 @@ select:focus{
     font-size: 18px;
     line-height: 50px;
 }
+.white-box{
+    padding: 70px 20px 100px;
+    color: #737373;
+}
+h2.row-title{
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+span.divider{
+    border-bottom: solid 1px #707070;
+}
