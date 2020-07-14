@@ -320,7 +320,7 @@ select:focus{
     margin-top: 40px;
     font-size: 13px;
 }
-.btn{
+.main-btn{
     background: #FBB03B;
     padding: 10px 30px;
     font-size: 14px;
@@ -329,6 +329,8 @@ select:focus{
     text-transform: uppercase;
     border-radius: 20px;
     display: block;
+    border: none;
+    outline: #fff0;
 }
 .footer input[type=email]{
     font-size: 13px;
@@ -402,5 +404,54 @@ h2.row-title{
     width: 100%;
 }
 span.divider{
-    border-bottom: solid 1px #707070;
+    border-bottom: solid 1px #e2dfdf;
+}
+.category-box{
+    border: solid 1px #707070;
+    width: 240px;
+    height: 240px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 240px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+.category-box:hover, .category-box.active{
+    background: #ffd4d4;
+}
+.post-box{
+    padding: 70px 0;
+    width: 100%;
+    margin: 0;
+    border-bottom: solid 1px #e7e7e7;
+}
+.post-box span{
+    font-size: 13px;
+    letter-spacing: 10px;
+}
+.post-box h4{
+    padding-top: 30px;
+    font-size: 40px;
+}
+.post-box p{
+    padding-top: 50px;
+    text-align: left;
+}
+.post-box  p a{
+    color: #0dcc39;
+    margin-left: 20px;
+}
+.light-btn{
+    background: #f4f7f5;
+    border: solid 1px #cbc9c9;
+    border-radius: 5px;
+    color: #3d3e3d;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 200px;
 }
