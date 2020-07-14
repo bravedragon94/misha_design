@@ -455,3 +455,17 @@ span.divider{
     margin-top: 60px;
     margin-bottom: 200px;
 }
+.post-img{
+    background: url(assets/img/photo.png);
+    height: 500px;
+    background-size: 100% 100%;
+    position: relative;
+    display: block;
+    float: left;
+}
+.post-img h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 400px;
+    margin-bottom: 60px;
+}
